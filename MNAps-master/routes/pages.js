@@ -1,3 +1,4 @@
+//Denne fil bliver brugt til at route til de forskellige views. I de views kaldes routes/auth.js filen, som kalder controlleren.
 const express = require('express');
 // const upload = require('express-fileupload');
 
@@ -23,7 +24,7 @@ router.post('/',(req, res)=>{
     if (req.files){
         console.log(req.files)
         var file = req.files.file
-        var filename = new Date().getTime() + '_' + file.name
+        var filename = new Date().getTime() + '_' + file.name //Giver det et (næsten) unikt navn
         console.log(filename)
         
         file.mv('./uploads/'+filename, function(err){
