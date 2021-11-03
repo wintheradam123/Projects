@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaxASFilm", "LaxASFilm\LaxASFilm.csproj", "{62E5EC74-981A-4897-BF2E-D5B40A281688}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62E5EC74-981A-4897-BF2E-D5B40A281688}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62E5EC74-981A-4897-BF2E-D5B40A281688}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62E5EC74-981A-4897-BF2E-D5B40A281688}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62E5EC74-981A-4897-BF2E-D5B40A281688}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C274A58-5BAC-4FF5-B572-3FD1B99DEB03}
+	EndGlobalSection
+EndGlobal

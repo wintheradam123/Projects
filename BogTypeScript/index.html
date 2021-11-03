@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bøger</title>
+    <script src="https://code.jquery.com/jquery-1.11.0.js" language="javascript" type="text/javascript"></script>
+    <script src="/BogTypeScript/app.js"></script>
+</head>
+<body>
+    <div class="resultatdiv">
+        <h2>Kategori: </h2>
+        <ul id="visliste">
+
+        </ul>
+    </div>
+    <div class="tilfoejdiv">
+        <h2>Tilføj en ny bog:</h2>
+        <form class="form" id="tilfoejform">
+            <div>
+                <label for="tilfoejtitel">Tilføj en ny titel: </label>
+                <input type="text" id="tilfoejtitel" name="tilfoejtitel" class="forminput">
+            </div>
+            <div>
+                <p>Indtast et nyt forfatternavn eller vælg en eksisterende forfatter:</p>
+                <label for="tilfoejforfatter">Ny forfatter: </label>
+                <input type="text" id="tilfoejforfatter" name="tilfoejforfatter" class="forminput">
+                <br>
+                <label for="vaelgforfatter">Vælg en forfatter: </label>
+                <select name="vaelgforfatter" id="vaelgforfatter">
+                    <option value="J.K. Rowling">J.K. Rowling</option>
+                </select>
+                <input type="reset" value="Cancel">
+                <input type="submit" value="Ok" id="tilfoejsubmit">
+            </div>
+        </form>
+    </div>
+    <div class="soegdiv">
+        <h2>Søg efter en titel eller en forfatter:</h2>
+        <form name="myForm" id="soegform">
+            <div>
+                <label for="soegtitel">Titel: </label>
+                <input type="text" id="soegtitel" name="soegtitel"/>
+            </div>
+            <div>
+                <label for="soegforfatter">Forfatternavn: </label>
+                <select name="soegforfatter" id="soegforfatter">
+                    <option value="J.K. Rowling">J.K. Rowling</option>
+                </select>
+                <br>
+                <input type="reset" value="Cancel"/>
+                <input type="submit" value="Ok" id="soegsubmit"/>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

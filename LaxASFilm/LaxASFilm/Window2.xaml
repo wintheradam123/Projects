@@ -1,0 +1,15 @@
+﻿<Window x:Class="LaxASFilm.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LaxASFilm"
+        mc:Ignorable="d"
+        Title="Slet Film" Height="285.06" Width="338.347">
+    <Grid>
+        <Label Content="Slet Film" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="navn" HorizontalAlignment="Left" Height="23" Margin="10,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="133" ToolTip="Indsæt navn på film du vil slette"/>
+        <Button Content="Slet film permanent" HorizontalAlignment="Left" Margin="206,218,0,0" VerticalAlignment="Top" Width="116" Height="27" Click="Button_Click"/>
+
+    </Grid>
+</Window>

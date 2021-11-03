@@ -1,0 +1,16 @@
+﻿<Window x:Class="LaxASFilm.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LaxASFilm"
+        mc:Ignorable="d"
+        Title="Film Menu" Height="278.438" Width="320">
+    <Grid>
+        <Button Content="Opret Film" HorizontalAlignment="Left" Margin="10,67,0,0" VerticalAlignment="Top" Width="75" Click="OpretFilm_Click" ToolTip="Gå til menu for oprettelse af film"/>
+        <Button Content="Slet Film" HorizontalAlignment="Left" Margin="10,91,0,0" VerticalAlignment="Top" Width="75" Click="SletFilm_Click" ToolTip="Gå til menu for slettelse af film"/>
+        <Button Content="Rediger Film" HorizontalAlignment="Left" Margin="10,115,0,0" VerticalAlignment="Top" Width="75" Click="RedigerFilm_Click" ToolTip="Gå til menu for redigering af film"/>
+        <Label Content="Film Menu" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="25" Width="75"/>
+
+    </Grid>
+</Window>
